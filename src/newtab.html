@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>流明 · Lumen</title>
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body class="no-anim">
+<div id="bg-layer" class="bg-layer"></div>
+<div id="bg-scrim" class="bg-scrim"></div>
+
+<main id="app">
+  <header class="topbar">
+    <div class="brand" id="brand" title="流明">
+      <svg viewBox="0 0 32 32" class="brand-mark" aria-hidden="true">
+        <circle cx="16" cy="16" r="7" fill="url(#g1)"/>
+        <circle cx="16" cy="16" r="12.5" fill="none" stroke="url(#g1)" stroke-opacity=".45" stroke-width="1.4"/>
+        <defs>
+          <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="var(--accent)"/>
+            <stop offset="1" stop-color="var(--accent2)"/>
+          </linearGradient>
+        </defs>
+      </svg>
+      <span class="brand-name">流明</span>
+    </div>
+    <div class="topbar-actions">
+      <button class="icon-btn" id="btn-locale" title="中文 / English">中</button>
+      <button class="icon-btn" id="btn-import-export" title="导入 / 导出" data-i18n-title="top.io">⤓</button>
+      <button class="icon-btn" id="btn-layout" title="布局" data-i18n-title="top.layout">⌗</button>
+      <button class="icon-btn" id="btn-settings" title="设置" data-i18n-title="top.settings">⚙</button>
+    </div>
+  </header>
+
+  <section class="hero" id="hero">
+    <form class="search" id="search-form" autocomplete="off">
+      <button type="button" class="engine-chip" id="engine-chip" title="切换搜索引擎">
+        <img id="engine-favicon" alt="" width="16" height="16" hidden>
+        <span id="engine-name">Bing</span>
+      </button>
+      <input id="q" type="text" name="q" spellcheck="false" data-i18n-ph="search.placeholder" placeholder="搜索，或输入算式 / 网址">
+      <button type="submit" class="search-go" id="search-go" data-i18n-title="search.go">↵</button>
+      <div class="suggest" id="suggest" hidden></div>
+    </form>
+    <div class="hint" id="hint"></div>
+  </section>
+
+  <section class="content" id="content">
+    <div class="content-main">
+      <div class="groups" id="groups-bar"></div>
+      <div class="grid-wrap">
+        <div class="grid" id="grid"></div>
+      </div>
+    </div>
+    <aside class="rail" id="rail"></aside>
+  </section>
+
+  <!-- 自由布局画布（E2）：图标和组件都摆在这上面 -->
+  <div class="canvas" id="canvas" hidden></div>
+</main>
+
+<div id="menu" class="menu" hidden></div>
+<div id="toast" class="toast" hidden></div>
+<div id="loading" class="loading">流明</div>
+
+<dialog id="dialog" class="dialog"></dialog>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
