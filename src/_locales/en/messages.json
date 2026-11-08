@@ -1,0 +1,10 @@
+{
+  "extName": { "message": "Lumen New Tab" },
+  "extDesc": { "message": "A fully customizable new tab page: icon desktop, wallpapers, search, widgets and sync — local-first." },
+  "sidebarTitle": { "message": "Lumen sidebar" },
+  "cmdFocusSearch": { "message": "Focus search box" },
+  "cmdOpenSettings": { "message": "Open settings" },
+  "menuAddLink": { "message": "Add to Lumen" },
+  "menuSettings": { "message": "Lumen settings" },
+  "newtabTitle": { "message": "New tab" }
+}
