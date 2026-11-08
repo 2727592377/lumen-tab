@@ -1,0 +1,10 @@
+{
+  "extName": { "message": "Lumen 新标签页" },
+  "extDesc": { "message": "一个可以完全自定义的新标签页：图标桌面、壁纸、搜索、组件与多端同步，全部本地优先。" },
+  "sidebarTitle": { "message": "Lumen 侧边栏" },
+  "cmdFocusSearch": { "message": "聚焦搜索框" },
+  "cmdOpenSettings": { "message": "打开设置" },
+  "menuAddLink": { "message": "添加到 Lumen" },
+  "menuSettings": { "message": "Lumen 设置" },
+  "newtabTitle": { "message": "新标签页" }
+}
