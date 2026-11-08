@@ -1,0 +1,177 @@
+/* sidebar.css —— 侧边栏：紧凑、跟主界面同一套颜色 */
+
+:root {
+  --accent: #6aa8ff;
+  --fg: #e9eef7;
+  --fg-dim: #9fb0c8;
+  --fg-faint: #6b7d95;
+  --panel: rgba(255, 255, 255, 0.06);
+  --panel-solid: #161b22;
+  --panel-border: rgba(255, 255, 255, 0.09);
+  --panel-hover: rgba(255, 255, 255, 0.1);
+  --radius: 12px;
+  --radius-sm: 8px;
+  --ui: system-ui, -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --fg: #1b2230;
+    --fg-dim: #57657c;
+    --fg-faint: #8a97ab;
+    --panel: rgba(15, 23, 42, 0.05);
+    --panel-solid: #ffffff;
+    --panel-border: rgba(15, 23, 42, 0.1);
+    --panel-hover: rgba(15, 23, 42, 0.08);
+  }
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 12px 10px 0;
+  font: 13px/1.45 var(--ui);
+  color: var(--fg);
+  background: var(--panel-solid);
+  overflow: hidden;
+}
+
+body.light { background: #fff; }
+
+.sb-search {
+  display: flex;
+  gap: 6px;
+  flex: 0 0 auto;
+}
+
+.sb-search input {
+  flex: 1 1 auto;
+  min-width: 0;
+  height: 32px;
+  padding: 0 10px;
+  color: var(--fg);
+  background: var(--panel);
+  border: 1px solid var(--panel-border);
+  border-radius: var(--radius-sm);
+  outline: none;
+  font: inherit;
+}
+
+.sb-search input:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 22%, transparent);
+}
+
+.sb-search button {
+  flex: 0 0 32px;
+  height: 32px;
+  color: #fff;
+  background: var(--accent);
+  border: 0;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  font: inherit;
+}
+
+.sb-groups {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  flex: 0 0 auto;
+}
+
+.sb-chip {
+  padding: 3px 9px;
+  color: var(--fg-dim);
+  background: var(--panel);
+  border: 1px solid transparent;
+  border-radius: 999px;
+  cursor: pointer;
+  font: inherit;
+  font-size: 12px;
+}
+
+.sb-chip:hover { color: var(--fg); border-color: var(--panel-border); }
+
+.sb-chip.active {
+  color: #fff;
+  background: var(--accent);
+  border-color: transparent;
+}
+
+.sb-list {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding-bottom: 8px;
+  scrollbar-width: thin;
+}
+
+.sb-item {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 6px 8px;
+  color: var(--fg);
+  text-decoration: none;
+  border-radius: var(--radius-sm);
+}
+
+.sb-item:hover, .sb-item:focus-visible {
+  background: var(--panel-hover);
+  outline: none;
+}
+
+.sb-item img {
+  flex: 0 0 auto;
+  width: 26px;
+  height: 26px;
+  border-radius: 7px;
+  object-fit: cover;
+}
+
+.sb-name {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.sb-empty {
+  margin: 18px 4px;
+  color: var(--fg-faint);
+  text-align: center;
+}
+
+.sb-foot {
+  flex: 0 0 auto;
+  display: flex;
+  gap: 6px;
+  padding: 8px 0 10px;
+  border-top: 1px solid var(--panel-border);
+}
+
+.sb-foot button {
+  flex: 1 1 auto;
+  height: 30px;
+  color: var(--fg-dim);
+  background: var(--panel);
+  border: 1px solid var(--panel-border);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  font: inherit;
+}
+
+.sb-foot button:hover { color: var(--fg); background: var(--panel-hover); }
+
+.sb-foot #sb-settings { flex: 0 0 38px; }
