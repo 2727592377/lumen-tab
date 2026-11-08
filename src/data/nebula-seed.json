@@ -1,0 +1,475 @@
+{
+ "source": "Nebula Shift Tab 1.7.1 (nebula-shift-tab-amo@addon.firefoxcn.net)",
+ "exported": "2026-11-07",
+ "sites": [
+  {
+   "name": "微博",
+   "title": "微博",
+   "url": "https://weibo.com/",
+   "color": "000000",
+   "builtin": true
+  },
+  {
+   "name": "GitHub",
+   "title": "GitHub",
+   "url": "https://github.com/",
+   "color": "",
+   "builtin": true
+  },
+  {
+   "name": "小红书",
+   "title": "小红书 - 你的生活兴趣社区",
+   "url": "https://www.xiaohongshu.com",
+   "color": "",
+   "builtin": true
+  },
+  {
+   "name": "X",
+   "title": "X",
+   "url": "https://x.com/home",
+   "color": "",
+   "builtin": true
+  },
+  {
+   "name": "哔哩哔哩",
+   "title": "哔哩哔哩 (゜-゜)つロ 干杯~-bilibili",
+   "url": "https://www.bilibili.com/",
+   "color": "",
+   "builtin": true
+  },
+  {
+   "name": "豆瓣",
+   "title": "豆瓣",
+   "url": "https://www.douban.com/",
+   "color": "",
+   "builtin": true
+  },
+  {
+   "name": "贴吧",
+   "title": "百度贴吧",
+   "url": "https://tieba.baidu.com/",
+   "color": "",
+   "builtin": true
+  },
+  {
+   "name": "知乎",
+   "title": "知乎",
+   "url": "https://www.zhihu.com/",
+   "color": "",
+   "builtin": true
+  },
+  {
+   "name": "AcFun",
+   "title": "AcFun弹幕视频网",
+   "url": "https://www.acfun.cn/",
+   "color": "",
+   "builtin": true
+  },
+  {
+   "name": "Pixiv",
+   "title": "Pixiv",
+   "url": "https://www.pixiv.net/",
+   "color": "050000",
+   "builtin": false
+  },
+  {
+   "name": "Pinterest",
+   "title": "Pinterest",
+   "url": "https://www.pinterest.com/",
+   "color": "000000",
+   "builtin": false
+  },
+  {
+   "name": "Facebook",
+   "title": "Facebook",
+   "url": "https://www.facebook.com/",
+   "color": "",
+   "builtin": true
+  },
+  {
+   "name": "YouTube",
+   "title": "YouTube",
+   "url": "https://www.youtube.com/",
+   "color": "",
+   "builtin": true
+  },
+  {
+   "name": "废文",
+   "title": "废文",
+   "url": "https://xn--pxtr7m.link/",
+   "color": "",
+   "builtin": true
+  },
+  {
+   "name": "Tumblr",
+   "title": "Tumblr",
+   "url": "https://www.tumblr.com/",
+   "color": "000000",
+   "builtin": false
+  },
+  {
+   "name": "nico",
+   "title": "nico",
+   "url": "https://nicochannel.jp/",
+   "color": "080808",
+   "builtin": false
+  },
+  {
+   "name": "知恵袋",
+   "title": "Yahoo!知恵袋",
+   "url": "https://chiebukuro.yahoo.co.jp/",
+   "color": "080707",
+   "builtin": false
+  },
+  {
+   "name": "CSDN博客",
+   "title": "CSDN博客",
+   "url": "https://blog.csdn.net/",
+   "color": "",
+   "builtin": false
+  },
+  {
+   "name": "SCP基金会",
+   "title": "SCP基金会",
+   "url": "https://scp-wiki-cn.wikidot.com/",
+   "color": "080707",
+   "builtin": false
+  },
+  {
+   "name": "小黑盒",
+   "title": "小黑盒",
+   "url": "https://www.xiaoheihe.cn/home",
+   "color": "000000",
+   "builtin": false
+  },
+  {
+   "name": "4chan",
+   "title": "Verification Required",
+   "url": "https://4chan.org/",
+   "color": "121212",
+   "builtin": false
+  },
+  {
+   "name": "知网",
+   "title": "中国知网",
+   "url": "https://www.cnki.net/",
+   "color": "",
+   "builtin": false
+  },
+  {
+   "name": "CSDN",
+   "title": "CSDN_专业开发者社区",
+   "url": "https://www.csdn.net/",
+   "color": "030303",
+   "builtin": false
+  },
+  {
+   "name": "吾爱破解",
+   "title": "吾爱破解",
+   "url": "https://www.52pojie.cn/",
+   "color": "080808",
+   "builtin": false
+  },
+  {
+   "name": "Sechub",
+   "title": "Sechub 是一个专注于网络安全的信息聚合平台",
+   "url": "https://sechub.in/",
+   "color": "000000",
+   "builtin": false
+  },
+  {
+   "name": "DeepSeek",
+   "title": "DeepSeek",
+   "url": "https://chat.deepseek.com/",
+   "color": "",
+   "builtin": true
+  },
+  {
+   "name": "DS平台",
+   "title": "DS开放平台",
+   "url": "https://platform.deepseek.com/usage",
+   "color": "",
+   "builtin": true
+  },
+  {
+   "name": "SpaceHey",
+   "title": "SpaceHey — a space for friends.",
+   "url": "https://spacehey.com/",
+   "color": "",
+   "builtin": false
+  },
+  {
+   "name": "StickyDrama",
+   "title": "Home - StickyDrama",
+   "url": "https://stickydrama.com/",
+   "color": "",
+   "builtin": false
+  },
+  {
+   "name": "Myspace",
+   "title": "Featured Content on Myspace",
+   "url": "https://myspace.com/",
+   "color": "",
+   "builtin": false
+  },
+  {
+   "name": "Pathos",
+   "title": "揆机",
+   "url": "https://pathos.page/",
+   "color": "",
+   "builtin": false
+  },
+  {
+   "name": "LAION",
+   "title": "LAION Dataset Explorer 🔬",
+   "url": "https://aella.inference.net/embeddings",
+   "color": "",
+   "builtin": false
+  },
+  {
+   "name": "少数派",
+   "title": "少数派 - 高效工作，品质生活",
+   "url": "https://sspai.com/",
+   "color": "",
+   "builtin": false
+  },
+  {
+   "name": "websitesfromhell",
+   "title": "websites from hell",
+   "url": "https://websitesfromhell.net/",
+   "color": "",
+   "builtin": false
+  },
+  {
+   "name": "UrkelBot",
+   "title": "UrkelBot.",
+   "url": "https://www.superbad.com/",
+   "color": "",
+   "builtin": false
+  },
+  {
+   "name": "LOFTER",
+   "title": "LOFTER（乐乎） - 让兴趣，更有趣",
+   "url": "https://www.lofter.com/",
+   "color": "",
+   "builtin": false
+  },
+  {
+   "name": "画盟网",
+   "title": "画盟网-画师联盟官网-自由画师的自由联合-huashilm",
+   "url": "https://www.huashilm.com/",
+   "color": "",
+   "builtin": false
+  },
+  {
+   "name": "BJD-yaso",
+   "title": "BJD-yaso",
+   "url": "http://www.yaso-peyotl.com/",
+   "color": "",
+   "builtin": false
+  },
+  {
+   "name": "FC2",
+   "title": "FC2 - 免费主页 访问分析 博客 服务器租赁 SEO对策 等 -",
+   "url": "https://fc2.com/",
+   "color": "",
+   "builtin": false
+  },
+  {
+   "name": "SQUARE ENIX",
+   "title": "スクウェア・エニックス 商品・サービス情報 | SQUARE ENIX",
+   "url": "https://www.jp.square-enix.com/",
+   "color": "",
+   "builtin": false
+  },
+  {
+   "name": "note",
+   "title": "note ――つくる、つながる、とどける。",
+   "url": "https://note.com/",
+   "color": "",
+   "builtin": false
+  },
+  {
+   "name": "少年Jump+",
+   "title": "少年ジャンプ＋｜人気オリジナル連載が全話無料！の最強WEBマンガ誌",
+   "url": "https://shonenjumpplus.com/",
+   "color": "",
+   "builtin": false
+  },
+  {
+   "name": "KERA",
+   "title": "KERA SHOP",
+   "url": "https://kerashop.official.ec/",
+   "color": "",
+   "builtin": false
+  },
+  {
+   "name": "ツイマンガ",
+   "title": "ツイマンガ - X(旧Twitter)で話題の漫画を毎日更新",
+   "url": "https://twiman.net/#google_vignette",
+   "color": "",
+   "builtin": false
+  },
+  {
+   "name": "Bluesky",
+   "title": "Bluesky",
+   "url": "https://bsky.app/",
+   "color": "",
+   "builtin": false
+  },
+  {
+   "name": "百合ナビ",
+   "title": "百合ナビ | 百合漫画・アニメに関する情報をお届け",
+   "url": "https://yurinavi.com/",
+   "color": "",
+   "builtin": false
+  },
+  {
+   "name": "vocus",
+   "title": "方格子 vocus｜Where the Sparks Begin",
+   "url": "https://vocus.cc/become_creator",
+   "color": "",
+   "builtin": false
+  },
+  {
+   "name": "pixiv漫画",
+   "title": "pixiv漫画",
+   "url": "https://comic.pixiv.net/",
+   "color": "",
+   "builtin": false
+  },
+  {
+   "name": "E路领航",
+   "title": "E路领航 | AI · 运维技术博客",
+   "url": "https://blog.oool.cc/",
+   "color": "",
+   "builtin": false
+  },
+  {
+   "name": "晋江",
+   "title": "晋江文学城",
+   "url": "https://www.jjwxc.net/",
+   "color": "",
+   "builtin": true
+  },
+  {
+   "name": "AO3",
+   "title": "Home | Archive of Our Own",
+   "url": "https://archiveofourown.org/",
+   "color": "",
+   "builtin": false
+  },
+  {
+   "name": "海棠",
+   "title": "海棠文化線上文學城",
+   "url": "https://lvhtebook.com/",
+   "color": "",
+   "builtin": false
+  },
+  {
+   "name": "reddit",
+   "title": "reddit",
+   "url": "https://www.reddit.com/",
+   "color": "",
+   "builtin": false
+  },
+  {
+   "name": "FastClash",
+   "title": "Fast Clash | 免费Clash节点、V2ray节点、Singbox节点订阅分享，2026高速稳定节点推荐",
+   "url": "https://fastclash.github.io/",
+   "color": "",
+   "builtin": false
+  },
+  {
+   "name": "PTT网页版",
+   "title": "PTT網頁版",
+   "url": "https://www.pttweb.cc/",
+   "color": "",
+   "builtin": false
+  },
+  {
+   "name": "PTT",
+   "title": "PTT",
+   "url": "https://pttweb.tw/",
+   "color": "",
+   "builtin": false
+  },
+  {
+   "name": "水木社区",
+   "title": "水木社区",
+   "url": "https://www.newsmth.net/nForum/#!mainpage",
+   "color": "",
+   "builtin": false
+  },
+  {
+   "name": "中国作家网",
+   "title": "中国作家网",
+   "url": "https://www.chinawriter.com.cn/",
+   "color": "",
+   "builtin": false
+  },
+  {
+   "name": "黑蓝论坛",
+   "title": "黑蓝论坛",
+   "url": "https://www.heilan.com/forum/forum.php",
+   "color": "",
+   "builtin": false
+  },
+  {
+   "name": "天涯",
+   "title": "天涯虚拟社区（恢复元气中）",
+   "url": "https://www.tianya.net/index.html",
+   "color": "",
+   "builtin": false
+  },
+  {
+   "name": "bookz",
+   "title": "bookz",
+   "url": "https://www.geocities.ws/prissy_90/Media/Texts/BookzHelp19kb.htm",
+   "color": "",
+   "builtin": false
+  },
+  {
+   "name": "Archive.org",
+   "title": "Internet Archive: Digital Library of Free & Borrowable Texts, Movies, Music & Wayback Machine",
+   "url": "https://archive.org/",
+   "color": "",
+   "builtin": false
+  },
+  {
+   "name": "WEBTOON",
+   "title": "WEBTOON - Read Comics, Manga & Manhwa",
+   "url": "https://www.webtoons.com/en/",
+   "color": "",
+   "builtin": false
+  },
+  {
+   "name": "Koomy",
+   "title": "Koomy | Fumetti e Manga in italiano - Leggi Online",
+   "url": "https://www.koomy.it/",
+   "color": "",
+   "builtin": false
+  },
+  {
+   "name": "TokyoFashion",
+   "title": "Tokyo Fashion – Street snaps and fashion news from Tokyo, Japan",
+   "url": "https://tokyofashion.com/",
+   "color": "",
+   "builtin": false
+  },
+  {
+   "name": "Everskies",
+   "title": "Everskies - Loading",
+   "url": "https://everskies.com/",
+   "color": "",
+   "builtin": false
+  },
+  {
+   "name": "MyAnimeList",
+   "title": "MyAnimeList.net - Anime and Manga Database and Community",
+   "url": "https://myanimelist.net/",
+   "color": "",
+   "builtin": false
+  }
+ ]
+}
